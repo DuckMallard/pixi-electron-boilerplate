@@ -9,11 +9,10 @@
     "test": "npm run package && npm run start"
   },
   "author": "jmayh",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "electron": "^18.2.0"
   },
   "dependencies": {
-    "pixi.js": "^6.3.2"
   }
 }
