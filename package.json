@@ -1,0 +1,19 @@
+{
+  "name": "pixi-electron-boilerplate",
+  "version": "1.0.0",
+  "description": "Integration between Pixi.js and Electron.js allowing Pixi to be run on desktop.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "browserify ./web/scripts/script.js -o ./web/bundle.js",
+    "test": "npm run package && npm run start"
+  },
+  "author": "jmayh",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^18.2.0"
+  },
+  "dependencies": {
+    "pixi.js": "^6.3.2"
+  }
+}
